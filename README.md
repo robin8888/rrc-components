@@ -5,9 +5,11 @@
 ### Ejemplo
 
 ```
-import {} from rrc-components
+import {ProductCard, ProductButtons, ProductTitle} from rrc-components
 ```
-```<ProductCard
+```
+
+<ProductCard
                 product={ product }
                 initialValues={{
                     count: 6,
@@ -24,5 +26,7 @@ import {} from rrc-components
                         </>
                     )
                 }
+
             </ProductCard>
+
 ```
